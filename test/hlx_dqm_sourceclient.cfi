@@ -1,5 +1,3 @@
-process HLXDQM={
-
   source = EmptySource {
   # Number of events program should run
       untracked int32 input = 299000
@@ -21,4 +19,3 @@ process HLXDQM={
 	untracked uint32 AquireMode = 0  # 0 TCP data, 1 constant fake data
 					 # 2 random data
   }
-} 
