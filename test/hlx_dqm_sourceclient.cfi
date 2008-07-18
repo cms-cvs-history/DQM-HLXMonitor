@@ -4,7 +4,7 @@
 
   # name of DQM Source program
   module hlxdqmsource = HLXMonitor{
-        untracked string HLXIP = "vmepcs2f17-19"
+        untracked string HLXDAQIP = "vmepcs2f17-19"
         untracked uint32 SourcePort = 51001
         untracked string outputFile = "DQM"
         untracked string subSystemName = "HLX"
